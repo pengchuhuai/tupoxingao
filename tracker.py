@@ -48,9 +48,15 @@ def main():
     pro = ts.pro_api(TOKEN)
     now = datetime.now().strftime("%Y%m%d")  # runner UTC; scheduled after CN close
     cal = request(pro.trade_cal, exchange="SSE", start_date=now, end_date=now)
-    if cal.empty or str(cal.iloc[0]["is_open"]) != "1":
-        print("Not a trading day; skipping")
-        return
+    if cal.empty:
+        raise ValueError("Trading calendar unavailable")
+    if str(cal.iloc[0]["is_open"]) != "1":
+        print("Non-trading day: backfilling history through last trading day")
+        past = request(pro.trade_cal, exchange="SSE", start_date="20261001", end_date=now)
+        opened = past[past.is_open.astype(str) == "1"]
+        if opened.empty:
+            raise ValueError("No recent trading day")
+        now = str(opened.iloc[-1]["cal_date"])
 
     stocks = []
     for status in ("L", "D", "P"):
@@ -64,7 +70,8 @@ def main():
     completed = progress["completed"]
     errors = progress["errors"]
     # Existing stocks are refreshed each trading day, while new stocks are backfilled.
-    due = sorted([r for r in universe.to_dict("records") if completed.get(r["ts_code"]) != now],\n                 key=lambda r: (r["ts_code"] in completed, r["ts_code"]))
+    due = sorted([r for r in universe.to_dict("records") if completed.get(r["ts_code"]) != now],
+                 key=lambda r: (r["ts_code"] in completed, r["ts_code"]))
     selected = due[:BATCH]
     breakouts = load("breakouts.json", [])
     index = {(x["ts_code"], x["date"], x["basis"]) for x in breakouts}
