@@ -61,9 +61,10 @@ def main():
     stocks = []
     for status in ("L", "D", "P"):
         df = request(pro.stock_basic, exchange="", list_status=status,
-                     fields="ts_code,name,list_date,list_status")
+                     fields="ts_code,name,list_date,list_status,industry")
         stocks.append(df)
     universe = pd.concat(stocks).drop_duplicates("ts_code").sort_values("ts_code")
+    save("industry_map.json", {str(r["ts_code"]): str(r["industry"]) for r in universe.to_dict("records") if pd.notna(r.get("industry"))})
     # Exclude codes without valid listing dates.
     universe = universe[universe.list_date.astype(str).str.fullmatch(r"\d{8}")]
     progress = load("progress.json", {"completed": {}, "errors": {}})
@@ -204,4 +205,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# CI initial scan trigger: 2026-10-31
+# CI sector attention integration trigger: 2026-10-31
