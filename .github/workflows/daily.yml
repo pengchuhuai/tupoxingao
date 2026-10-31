@@ -1,6 +1,9 @@
 name: A-share historical-high tracker
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'tracker.py'
   schedule:
     - cron: '25 8 * * 1-5' # 16:25 Beijing, weekdays; holidays skipped by trade calendar
 permissions:
