@@ -43,9 +43,9 @@ jobs:
           fi
           echo "Tushare secret present (value hidden)"
       - name: Compile Python sources
-        run: python -m compileall -q tracker.py sector_monitor.py test_sector_monitor.py
+        run: python -m compileall -q tracker.py sector_monitor.py test_sector_monitor.py backtest.py test_backtest.py
       - name: Validate sector monitor
-        run: python -m unittest -v test_sector_monitor
+        run: python -m unittest -v test_sector_monitor test_backtest
       - name: Scan and checkpoint
         env:
           TUSHARE_TOKEN: ${{ secrets.tushare_key }}
@@ -54,6 +54,9 @@ jobs:
       - name: Build daily sector attention report
         if: always()
         run: python sector_monitor.py
+      - name: Run historical research backtest
+        if: always()
+        run: python -u backtest.py
       - name: Commit verified data and progress
         if: always()
         run: |
