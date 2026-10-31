@@ -212,4 +212,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# CI diagnostic run trigger: 2026-10-31
+# CI backtest integration trigger: 2026-10-31
