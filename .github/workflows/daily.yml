@@ -4,6 +4,12 @@ on:
   push:
     paths:
       - 'tracker.py'
+      - 'sector_monitor.py'
+      - 'backtest.py'
+      - 'market_risk.py'
+      - 'test_*.py'
+      - 'requirements.txt'
+      - '.github/workflows/daily.yml'
   schedule:
     - cron: '25 8 * * 1-5' # 16:25 Beijing, weekdays; holidays skipped by trade calendar
 permissions:
