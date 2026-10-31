@@ -4,6 +4,7 @@ No orders. No signal unless the listing-to-present history has been fetched
 successfully. Requires Tushare Pro access and API quota.
 """
 import json
+import traceback
 import os
 import time
 from datetime import datetime
@@ -45,6 +46,7 @@ def request(func, **kwargs):
 def main():
     if not TOKEN:
         raise SystemExit("Set GitHub Actions secret TUSHARE_TOKEN")
+    print("[SCAN] Tushare token present (masked); starting", flush=True)
     pro = ts.pro_api(TOKEN)
     now = datetime.now().strftime("%Y%m%d")  # runner UTC; scheduled after CN close
     cal = request(pro.trade_cal, exchange="SSE", start_date=now, end_date=now)
@@ -64,6 +66,7 @@ def main():
                      fields="ts_code,name,list_date,list_status,industry")
         stocks.append(df)
     universe = pd.concat(stocks).drop_duplicates("ts_code").sort_values("ts_code")
+    print(f"[SCAN] universe={len(universe)} calendar_date={now} batch_size={BATCH}", flush=True)
     save("industry_map.json", {str(r["ts_code"]): str(r["industry"]) for r in universe.to_dict("records") if pd.notna(r.get("industry"))})
     # Exclude codes without valid listing dates.
     universe = universe[universe.list_date.astype(str).str.fullmatch(r"\d{8}")]
@@ -74,6 +77,7 @@ def main():
     due = sorted([r for r in universe.to_dict("records") if completed.get(r["ts_code"]) != now],
                  key=lambda r: (r["ts_code"] in completed, r["ts_code"]))
     selected = due[:BATCH]
+    print(f"[SCAN] selected={len(selected)} remaining={len(due)}", flush=True)
     breakouts = load("breakouts.json", [])
     index = {(x["ts_code"], x["date"], x["basis"]) for x in breakouts}
     watchlist = load("watchlist.json", [])
@@ -82,6 +86,7 @@ def main():
     for stock in selected:
         code, listing = stock["ts_code"], str(stock["list_date"])
         try:
+            print(f"[SCAN] begin {code} listing={listing}", flush=True)
             # Full listing history fetched, not a 250-day proxy.
             daily = request(pro.daily, ts_code=code, start_date=listing, end_date=now)
             factors = request(pro.adj_factor, ts_code=code, start_date=listing, end_date=now)
@@ -181,10 +186,12 @@ def main():
                          ("first_touch_invalid" if touches else "watching"))
             df.to_csv(HISTORY / f"{code}.csv.gz", index=False, compression="gzip")
             completed[code] = now
+            print(f"[SCAN] success {code} bars={len(df)}", flush=True)
             errors.pop(code, None)
         except Exception as exc:
             errors[code] = str(exc)[:300]
-            print(f"FAILED {code}: {exc}")
+            print(f"[SCAN] FAILED {code}: {type(exc).__name__}: {exc}", flush=True)
+            traceback.print_exc()
         finally:
             progress["completed"], progress["errors"] = completed, errors
             save("progress.json", progress)
@@ -199,10 +206,10 @@ def main():
         "errors": errors, "batch_size": BATCH,
         "warning": "Incomplete until every listed/delisted/suspended code is processed; source gaps not independently audited"
     })
-    print(f"Processed {len(selected)}; total {len(universe)}")
+    print(f"[SCAN] finished selected={len(selected)} completed_today={sum(v == now for v in completed.values())} errors={len(errors)} universe={len(universe)}", flush=True)
 
 
 if __name__ == "__main__":
     main()
 
-# CI sector attention integration trigger: 2026-10-31
+# CI diagnostic run trigger: 2026-10-31
