@@ -21,7 +21,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Scan and checkpoint
         env:
-          TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
+          TUSHARE_TOKEN: ${{ secrets.tushare_key }}
           BATCH_SIZE: '25'
         run: python tracker.py
       - name: Commit verified data and progress
