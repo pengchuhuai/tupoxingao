@@ -1,0 +1,35 @@
+name: A-share historical-high tracker
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 8 * * 1-5' # 16:25 Beijing, weekdays; holidays skipped by trade calendar
+permissions:
+  contents: write
+concurrency:
+  group: ashare-tracker
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scan and checkpoint
+        env:
+          TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
+          BATCH_SIZE: '25'
+        run: python tracker.py
+      - name: Commit verified data and progress
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update A-share scan and MA10 watchlist"
+            git push
+          fi
