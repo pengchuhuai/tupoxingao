@@ -1,0 +1,85 @@
+{
+  "sample": "signal-level overlapping observations; NOT portfolio PnL",
+  "breakouts": {
+    "ret_5d": {
+      "n": 0,
+      "mean": null,
+      "win_rate": null
+    },
+    "ret_10d": {
+      "n": 0,
+      "mean": null,
+      "win_rate": null
+    },
+    "ret_20d": {
+      "n": 0,
+      "mean": null,
+      "win_rate": null
+    }
+  },
+  "trades": {
+    "n": 0,
+    "mean": null,
+    "win_rate": null
+  },
+  "by_regime": {
+    "up": {
+      "breakout_20d": {
+        "n": 0,
+        "mean": null,
+        "win_rate": null
+      },
+      "trades": {
+        "n": 0,
+        "mean": null,
+        "win_rate": null
+      }
+    },
+    "sideways": {
+      "breakout_20d": {
+        "n": 0,
+        "mean": null,
+        "win_rate": null
+      },
+      "trades": {
+        "n": 0,
+        "mean": null,
+        "win_rate": null
+      }
+    },
+    "down": {
+      "breakout_20d": {
+        "n": 0,
+        "mean": null,
+        "win_rate": null
+      },
+      "trades": {
+        "n": 0,
+        "mean": null,
+        "win_rate": null
+      }
+    },
+    "unknown": {
+      "breakout_20d": {
+        "n": 0,
+        "mean": null,
+        "win_rate": null
+      },
+      "trades": {
+        "n": 0,
+        "mean": null,
+        "win_rate": null
+      }
+    }
+  },
+  "limitations": [
+    "No sector-relative ranking without historical point-in-time sector memberships and sector bars",
+    "No reliable historical capital-flow series: flow exit NOT tested",
+    "No price-limit, suspension, lot-size, realistic slippage or portfolio capital constraints",
+    "Raw-price MA10 only; adjusted-price backtest needs consistent adjusted OHLC",
+    "Repeated breakout events overlap; outcomes are not independent",
+    "Index regime requires separately supplied historical index CSV; otherwise unknown"
+  ],
+  "data_files": 0,
+  "status": "no_history"
+}
