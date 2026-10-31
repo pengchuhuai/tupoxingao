@@ -1,0 +1,9 @@
+{
+  "as_of": "20261031",
+  "mode": "daily_after_close_not_realtime",
+  "verified_highs_by_industry": [],
+  "reported_closing_high_candidates_by_industry": [],
+  "verified_total_unique_stock_industry_pairs": 0,
+  "window_note": "7/14 calendar-day approximate windows; not exact 5/10 trading sessions",
+  "warning": "Reported closing highs are NOT verified intraday all-time highs. No live feed or verified money flow."
+}
