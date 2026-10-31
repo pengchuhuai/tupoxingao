@@ -21,18 +21,41 @@ jobs:
         with:
           python-version: '3.11'
           cache: pip
-      - run: pip install -r requirements.txt
+      - name: Environment diagnostics
+        run: |
+          echo "::group::Runtime"
+          date -u
+          python --version
+          git rev-parse --short HEAD
+          echo "::endgroup::"
+      - name: Install dependencies
+        run: |
+          set -euxo pipefail
+          python -m pip install -r requirements.txt
+          python -m pip show tushare pandas
+      - name: Check Tushare secret availability
+        env:
+          TUSHARE_TOKEN: ${{ secrets.tushare_key }}
+        run: |
+          if [ -z "$TUSHARE_TOKEN" ]; then
+            echo "::error title=Missing Tushare secret::Set repository Actions secret tushare_key"
+            exit 1
+          fi
+          echo "Tushare secret present (value hidden)"
+      - name: Compile Python sources
+        run: python -m compileall -q tracker.py sector_monitor.py test_sector_monitor.py
       - name: Validate sector monitor
         run: python -m unittest -v test_sector_monitor
       - name: Scan and checkpoint
         env:
           TUSHARE_TOKEN: ${{ secrets.tushare_key }}
           BATCH_SIZE: '25'
-        run: python tracker.py
+        run: python -u tracker.py
       - name: Build daily sector attention report
         if: always()
         run: python sector_monitor.py
       - name: Commit verified data and progress
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
