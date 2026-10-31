@@ -48,7 +48,7 @@ def build(root=Path("data"), as_of=None):
             "reported_closing_high_candidates_by_industry":
                 [{"industry": k, "count": len(v), "codes": sorted(v)}
                  for k, v in sorted(candidates.items(), key=lambda x: (-len(x[1]), x[0]))],
-            "verified_total_unique_stock_industry_pairs": sum(len(x["codes10"]) for x in ranked),
+            "verified_total_unique_stock_industry_pairs": sum(len(x["codes"]) for x in ranked),
             "window_note": "7/14 calendar-day approximate windows; not exact 5/10 trading sessions",
             "warning": "Reported closing highs are NOT verified intraday all-time highs. No live feed or verified money flow."}
 
