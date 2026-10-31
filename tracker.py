@@ -64,7 +64,7 @@ def main():
     completed = progress["completed"]
     errors = progress["errors"]
     # Existing stocks are refreshed each trading day, while new stocks are backfilled.
-    due = [r for r in universe.to_dict("records") if completed.get(r["ts_code"]) != now]
+    due = sorted([r for r in universe.to_dict("records") if completed.get(r["ts_code"]) != now],\n                 key=lambda r: (r["ts_code"] in completed, r["ts_code"]))
     selected = due[:BATCH]
     breakouts = load("breakouts.json", [])
     index = {(x["ts_code"], x["date"], x["basis"]) for x in breakouts}
@@ -158,7 +158,7 @@ def main():
                         continue
                     low = float(df.at[i, "low"])
                     ma = float(df.at[i, "ma10"])
-                    if low <= ma * 1.01:
+                    if low <= ma * 1.01 and float(df.at[i, "high"]) >= ma * 0.99:
                         touches += 1
                         if touches == 1:
                             first_date = str(df.at[i, "trade_date"])
