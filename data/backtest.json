@@ -2,25 +2,25 @@
   "sample": "signal-level overlapping observations; NOT portfolio PnL",
   "breakouts": {
     "ret_5d": {
-      "n": 0,
-      "mean": null,
-      "win_rate": null
+      "n": 126,
+      "mean": 0.024146,
+      "win_rate": 0.5556
     },
     "ret_10d": {
-      "n": 0,
-      "mean": null,
-      "win_rate": null
+      "n": 126,
+      "mean": 0.034558,
+      "win_rate": 0.5476
     },
     "ret_20d": {
-      "n": 0,
-      "mean": null,
-      "win_rate": null
+      "n": 126,
+      "mean": 0.0385,
+      "win_rate": 0.5476
     }
   },
   "trades": {
-    "n": 0,
-    "mean": null,
-    "win_rate": null
+    "n": 25,
+    "mean": -0.02068,
+    "win_rate": 0.16
   },
   "by_regime": {
     "up": {
@@ -61,14 +61,14 @@
     },
     "unknown": {
       "breakout_20d": {
-        "n": 0,
-        "mean": null,
-        "win_rate": null
+        "n": 126,
+        "mean": 0.0385,
+        "win_rate": 0.5476
       },
       "trades": {
-        "n": 0,
-        "mean": null,
-        "win_rate": null
+        "n": 25,
+        "mean": -0.02068,
+        "win_rate": 0.16
       }
     }
   },
@@ -80,6 +80,6 @@
     "Repeated breakout events overlap; outcomes are not independent",
     "Index regime requires separately supplied historical index CSV; otherwise unknown"
   ],
-  "data_files": 0,
-  "status": "no_history"
+  "data_files": 4,
+  "status": "partial_research"
 }

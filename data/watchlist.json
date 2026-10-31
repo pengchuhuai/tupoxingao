@@ -1,0 +1,3062 @@
+[
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911007",
+    "basis": "raw",
+    "first_touch_date": "19911022",
+    "touch_count": 1213,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911008",
+    "basis": "raw",
+    "first_touch_date": "19911022",
+    "touch_count": 1213,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911009",
+    "basis": "raw",
+    "first_touch_date": "19911022",
+    "touch_count": 1213,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911010",
+    "basis": "raw",
+    "first_touch_date": "19911022",
+    "touch_count": 1213,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911031",
+    "basis": "raw",
+    "first_touch_date": "19911106",
+    "touch_count": 1208,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911101",
+    "basis": "raw",
+    "first_touch_date": "19911106",
+    "touch_count": 1208,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911104",
+    "basis": "raw",
+    "first_touch_date": "19911106",
+    "touch_count": 1208,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911105",
+    "basis": "raw",
+    "first_touch_date": "19911106",
+    "touch_count": 1208,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911112",
+    "basis": "raw",
+    "first_touch_date": "19911118",
+    "touch_count": 1207,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911113",
+    "basis": "raw",
+    "first_touch_date": "19911118",
+    "touch_count": 1207,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911114",
+    "basis": "raw",
+    "first_touch_date": "19911118",
+    "touch_count": 1207,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920330",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920331",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920406",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920407",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920408",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920410",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920413",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920414",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920415",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920416",
+    "basis": "raw",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920505",
+    "basis": "raw",
+    "first_touch_date": "19920507",
+    "touch_count": 1157,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920506",
+    "basis": "raw",
+    "first_touch_date": "19920507",
+    "touch_count": 1157,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920527",
+    "basis": "raw",
+    "first_touch_date": "19920529",
+    "touch_count": 1147,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920601",
+    "basis": "raw",
+    "first_touch_date": "19920602",
+    "touch_count": 1146,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930201",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930202",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930203",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930208",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930209",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930210",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930211",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930215",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930218",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930219",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930222",
+    "basis": "raw",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930412",
+    "basis": "raw",
+    "first_touch_date": "19930426",
+    "touch_count": 1063,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911007",
+    "basis": "hfq",
+    "first_touch_date": "19911022",
+    "touch_count": 1213,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911008",
+    "basis": "hfq",
+    "first_touch_date": "19911022",
+    "touch_count": 1213,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911009",
+    "basis": "hfq",
+    "first_touch_date": "19911022",
+    "touch_count": 1213,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911010",
+    "basis": "hfq",
+    "first_touch_date": "19911022",
+    "touch_count": 1213,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911031",
+    "basis": "hfq",
+    "first_touch_date": "19911106",
+    "touch_count": 1208,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911101",
+    "basis": "hfq",
+    "first_touch_date": "19911106",
+    "touch_count": 1208,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911104",
+    "basis": "hfq",
+    "first_touch_date": "19911106",
+    "touch_count": 1208,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911105",
+    "basis": "hfq",
+    "first_touch_date": "19911106",
+    "touch_count": 1208,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911112",
+    "basis": "hfq",
+    "first_touch_date": "19911118",
+    "touch_count": 1207,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911113",
+    "basis": "hfq",
+    "first_touch_date": "19911118",
+    "touch_count": 1207,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19911114",
+    "basis": "hfq",
+    "first_touch_date": "19911118",
+    "touch_count": 1207,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920330",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920331",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920406",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920407",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920408",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920410",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920413",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920414",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920415",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920416",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920423",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920424",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920427",
+    "basis": "hfq",
+    "first_touch_date": "19920429",
+    "touch_count": 1158,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920429",
+    "basis": "hfq",
+    "first_touch_date": "19920507",
+    "touch_count": 1157,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920430",
+    "basis": "hfq",
+    "first_touch_date": "19920507",
+    "touch_count": 1157,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920504",
+    "basis": "hfq",
+    "first_touch_date": "19920507",
+    "touch_count": 1157,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920505",
+    "basis": "hfq",
+    "first_touch_date": "19920507",
+    "touch_count": 1157,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920506",
+    "basis": "hfq",
+    "first_touch_date": "19920507",
+    "touch_count": 1157,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920527",
+    "basis": "hfq",
+    "first_touch_date": "19920529",
+    "touch_count": 1147,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19920601",
+    "basis": "hfq",
+    "first_touch_date": "19920602",
+    "touch_count": 1146,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930201",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930202",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930203",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930208",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930209",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930210",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930211",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930215",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930218",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930219",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930222",
+    "basis": "hfq",
+    "first_touch_date": "19930224",
+    "touch_count": 1083,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000003.SZ",
+    "name": "PT金田A(退)",
+    "breakout_date": "19930412",
+    "basis": "hfq",
+    "first_touch_date": "19930426",
+    "touch_count": 1063,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920507",
+    "basis": "raw",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920513",
+    "basis": "raw",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920515",
+    "basis": "raw",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920518",
+    "basis": "raw",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920519",
+    "basis": "raw",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920520",
+    "basis": "raw",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920525",
+    "basis": "raw",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19930203",
+    "basis": "raw",
+    "first_touch_date": "19930211",
+    "touch_count": 1447,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19930204",
+    "basis": "raw",
+    "first_touch_date": "19930211",
+    "touch_count": 1447,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19930208",
+    "basis": "raw",
+    "first_touch_date": "19930211",
+    "touch_count": 1447,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19930222",
+    "basis": "raw",
+    "first_touch_date": "19930223",
+    "touch_count": 1441,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920507",
+    "basis": "hfq",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920513",
+    "basis": "hfq",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920515",
+    "basis": "hfq",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920518",
+    "basis": "hfq",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920519",
+    "basis": "hfq",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920520",
+    "basis": "hfq",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19920525",
+    "basis": "hfq",
+    "first_touch_date": "19920529",
+    "touch_count": 1524,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19930204",
+    "basis": "hfq",
+    "first_touch_date": "19930211",
+    "touch_count": 1447,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19930208",
+    "basis": "hfq",
+    "first_touch_date": "19930211",
+    "touch_count": 1447,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "19930222",
+    "basis": "hfq",
+    "first_touch_date": "19930223",
+    "touch_count": 1441,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "20000712",
+    "basis": "hfq",
+    "first_touch_date": "20000720",
+    "touch_count": 473,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "20000717",
+    "basis": "hfq",
+    "first_touch_date": "20000720",
+    "touch_count": 473,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "20010605",
+    "basis": "hfq",
+    "first_touch_date": "20010614",
+    "touch_count": 338,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "20010606",
+    "basis": "hfq",
+    "first_touch_date": "20010614",
+    "touch_count": 338,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "20010607",
+    "basis": "hfq",
+    "first_touch_date": "20010614",
+    "touch_count": 338,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "20010611",
+    "basis": "hfq",
+    "first_touch_date": "20010614",
+    "touch_count": 338,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "20010612",
+    "basis": "hfq",
+    "first_touch_date": "20010614",
+    "touch_count": 338,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000013.SZ",
+    "name": "*ST石化A(退)",
+    "breakout_date": "20010614",
+    "basis": "hfq",
+    "first_touch_date": "20010615",
+    "touch_count": 337,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19920626",
+    "basis": "raw",
+    "first_touch_date": "19920709",
+    "touch_count": 950,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19920629",
+    "basis": "raw",
+    "first_touch_date": "19920709",
+    "touch_count": 950,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19920630",
+    "basis": "raw",
+    "first_touch_date": "19920709",
+    "touch_count": 950,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19920701",
+    "basis": "raw",
+    "first_touch_date": "19920709",
+    "touch_count": 950,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930203",
+    "basis": "raw",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930204",
+    "basis": "raw",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930205",
+    "basis": "raw",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930208",
+    "basis": "raw",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930209",
+    "basis": "raw",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930222",
+    "basis": "raw",
+    "first_touch_date": "19930223",
+    "touch_count": 873,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930408",
+    "basis": "raw",
+    "first_touch_date": "19930419",
+    "touch_count": 851,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930409",
+    "basis": "raw",
+    "first_touch_date": "19930419",
+    "touch_count": 851,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930412",
+    "basis": "raw",
+    "first_touch_date": "19930419",
+    "touch_count": 851,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930416",
+    "basis": "raw",
+    "first_touch_date": "19930419",
+    "touch_count": 851,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930419",
+    "basis": "raw",
+    "first_touch_date": "19930420",
+    "touch_count": 850,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19920626",
+    "basis": "hfq",
+    "first_touch_date": "19920709",
+    "touch_count": 950,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19920629",
+    "basis": "hfq",
+    "first_touch_date": "19920709",
+    "touch_count": 950,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19920630",
+    "basis": "hfq",
+    "first_touch_date": "19920709",
+    "touch_count": 950,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19920701",
+    "basis": "hfq",
+    "first_touch_date": "19920709",
+    "touch_count": 950,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930203",
+    "basis": "hfq",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930204",
+    "basis": "hfq",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930205",
+    "basis": "hfq",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930208",
+    "basis": "hfq",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930209",
+    "basis": "hfq",
+    "first_touch_date": "19930211",
+    "touch_count": 879,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930222",
+    "basis": "hfq",
+    "first_touch_date": "19930223",
+    "touch_count": 873,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930408",
+    "basis": "hfq",
+    "first_touch_date": "19930419",
+    "touch_count": 851,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930409",
+    "basis": "hfq",
+    "first_touch_date": "19930419",
+    "touch_count": 851,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930412",
+    "basis": "hfq",
+    "first_touch_date": "19930419",
+    "touch_count": 851,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930416",
+    "basis": "hfq",
+    "first_touch_date": "19930419",
+    "touch_count": 851,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19930419",
+    "basis": "hfq",
+    "first_touch_date": "19930420",
+    "touch_count": 850,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19961119",
+    "basis": "hfq",
+    "first_touch_date": "19961126",
+    "touch_count": 414,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19961120",
+    "basis": "hfq",
+    "first_touch_date": "19961126",
+    "touch_count": 414,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19961205",
+    "basis": "hfq",
+    "first_touch_date": "19961212",
+    "touch_count": 408,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19961206",
+    "basis": "hfq",
+    "first_touch_date": "19961212",
+    "touch_count": 408,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000015.SZ",
+    "name": "PT中浩A(退)",
+    "breakout_date": "19961209",
+    "basis": "hfq",
+    "first_touch_date": "19961212",
+    "touch_count": 408,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19930816",
+    "basis": "raw",
+    "first_touch_date": "19930817",
+    "touch_count": 2672,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19930817",
+    "basis": "raw",
+    "first_touch_date": "19930818",
+    "touch_count": 2671,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961120",
+    "basis": "raw",
+    "first_touch_date": "19961122",
+    "touch_count": 2269,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961121",
+    "basis": "raw",
+    "first_touch_date": "19961122",
+    "touch_count": 2269,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961122",
+    "basis": "raw",
+    "first_touch_date": "19961128",
+    "touch_count": 2268,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961125",
+    "basis": "raw",
+    "first_touch_date": "19961128",
+    "touch_count": 2268,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19970609",
+    "basis": "raw",
+    "first_touch_date": "19970611",
+    "touch_count": 2203,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19970623",
+    "basis": "raw",
+    "first_touch_date": "19970626",
+    "touch_count": 2194,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061026",
+    "basis": "raw",
+    "first_touch_date": "20061030",
+    "touch_count": 982,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061027",
+    "basis": "raw",
+    "first_touch_date": "20061030",
+    "touch_count": 982,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061103",
+    "basis": "raw",
+    "first_touch_date": "20061106",
+    "touch_count": 978,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061110",
+    "basis": "raw",
+    "first_touch_date": "20061113",
+    "touch_count": 973,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061116",
+    "basis": "raw",
+    "first_touch_date": "20061117",
+    "touch_count": 969,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061120",
+    "basis": "raw",
+    "first_touch_date": "20061124",
+    "touch_count": 968,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061121",
+    "basis": "raw",
+    "first_touch_date": "20061124",
+    "touch_count": 968,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061130",
+    "basis": "raw",
+    "first_touch_date": "20061208",
+    "touch_count": 963,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061201",
+    "basis": "raw",
+    "first_touch_date": "20061208",
+    "touch_count": 963,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061204",
+    "basis": "raw",
+    "first_touch_date": "20061208",
+    "touch_count": 963,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061205",
+    "basis": "raw",
+    "first_touch_date": "20061208",
+    "touch_count": 963,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061218",
+    "basis": "raw",
+    "first_touch_date": "20061225",
+    "touch_count": 958,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061220",
+    "basis": "raw",
+    "first_touch_date": "20061225",
+    "touch_count": 958,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061221",
+    "basis": "raw",
+    "first_touch_date": "20061225",
+    "touch_count": 958,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061225",
+    "basis": "raw",
+    "first_touch_date": "20061227",
+    "touch_count": 957,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061227",
+    "basis": "raw",
+    "first_touch_date": "20070108",
+    "touch_count": 956,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061228",
+    "basis": "raw",
+    "first_touch_date": "20070108",
+    "touch_count": 956,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061229",
+    "basis": "raw",
+    "first_touch_date": "20070108",
+    "touch_count": 956,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070104",
+    "basis": "raw",
+    "first_touch_date": "20070108",
+    "touch_count": 956,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070409",
+    "basis": "raw",
+    "first_touch_date": "20070411",
+    "touch_count": 930,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070417",
+    "basis": "raw",
+    "first_touch_date": "20070418",
+    "touch_count": 925,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070418",
+    "basis": "raw",
+    "first_touch_date": "20070430",
+    "touch_count": 924,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070420",
+    "basis": "raw",
+    "first_touch_date": "20070430",
+    "touch_count": 924,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070423",
+    "basis": "raw",
+    "first_touch_date": "20070430",
+    "touch_count": 924,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070424",
+    "basis": "raw",
+    "first_touch_date": "20070430",
+    "touch_count": 924,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070508",
+    "basis": "raw",
+    "first_touch_date": "20070509",
+    "touch_count": 923,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070514",
+    "basis": "raw",
+    "first_touch_date": "20070515",
+    "touch_count": 920,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070518",
+    "basis": "raw",
+    "first_touch_date": "20070521",
+    "touch_count": 916,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070521",
+    "basis": "raw",
+    "first_touch_date": "20070522",
+    "touch_count": 915,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070525",
+    "basis": "raw",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070528",
+    "basis": "raw",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070529",
+    "basis": "raw",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070530",
+    "basis": "raw",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070531",
+    "basis": "raw",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070601",
+    "basis": "raw",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070720",
+    "basis": "raw",
+    "first_touch_date": "20070726",
+    "touch_count": 891,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070723",
+    "basis": "raw",
+    "first_touch_date": "20070726",
+    "touch_count": 891,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070730",
+    "basis": "raw",
+    "first_touch_date": "20070801",
+    "touch_count": 890,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070802",
+    "basis": "raw",
+    "first_touch_date": "20070808",
+    "touch_count": 889,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070803",
+    "basis": "raw",
+    "first_touch_date": "20070808",
+    "touch_count": 889,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070822",
+    "basis": "raw",
+    "first_touch_date": "20070830",
+    "touch_count": 884,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070823",
+    "basis": "raw",
+    "first_touch_date": "20070830",
+    "touch_count": 884,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070824",
+    "basis": "raw",
+    "first_touch_date": "20070830",
+    "touch_count": 884,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070827",
+    "basis": "raw",
+    "first_touch_date": "20070830",
+    "touch_count": 884,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070904",
+    "basis": "raw",
+    "first_touch_date": "20070905",
+    "touch_count": 882,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070917",
+    "basis": "raw",
+    "first_touch_date": "20070918",
+    "touch_count": 876,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070920",
+    "basis": "raw",
+    "first_touch_date": "20070921",
+    "touch_count": 875,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070926",
+    "basis": "raw",
+    "first_touch_date": "20070927",
+    "touch_count": 871,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071008",
+    "basis": "raw",
+    "first_touch_date": "20071011",
+    "touch_count": 868,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071009",
+    "basis": "raw",
+    "first_touch_date": "20071011",
+    "touch_count": 868,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071010",
+    "basis": "raw",
+    "first_touch_date": "20071011",
+    "touch_count": 868,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071026",
+    "basis": "raw",
+    "first_touch_date": "20071105",
+    "touch_count": 859,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071029",
+    "basis": "raw",
+    "first_touch_date": "20071105",
+    "touch_count": 859,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071031",
+    "basis": "raw",
+    "first_touch_date": "20071105",
+    "touch_count": 859,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071101",
+    "basis": "raw",
+    "first_touch_date": "20071105",
+    "touch_count": 859,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19930816",
+    "basis": "hfq",
+    "first_touch_date": "19930817",
+    "touch_count": 2672,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19930817",
+    "basis": "hfq",
+    "first_touch_date": "19930818",
+    "touch_count": 2671,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19960715",
+    "basis": "hfq",
+    "first_touch_date": "19960725",
+    "touch_count": 2306,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19960718",
+    "basis": "hfq",
+    "first_touch_date": "19960725",
+    "touch_count": 2306,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19960719",
+    "basis": "hfq",
+    "first_touch_date": "19960725",
+    "touch_count": 2306,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19960723",
+    "basis": "hfq",
+    "first_touch_date": "19960725",
+    "touch_count": 2306,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19960724",
+    "basis": "hfq",
+    "first_touch_date": "19960725",
+    "touch_count": 2306,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961104",
+    "basis": "hfq",
+    "first_touch_date": "19961106",
+    "touch_count": 2274,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961105",
+    "basis": "hfq",
+    "first_touch_date": "19961106",
+    "touch_count": 2274,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961113",
+    "basis": "hfq",
+    "first_touch_date": "19961120",
+    "touch_count": 2270,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961115",
+    "basis": "hfq",
+    "first_touch_date": "19961120",
+    "touch_count": 2270,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961118",
+    "basis": "hfq",
+    "first_touch_date": "19961120",
+    "touch_count": 2270,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961120",
+    "basis": "hfq",
+    "first_touch_date": "19961122",
+    "touch_count": 2269,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961121",
+    "basis": "hfq",
+    "first_touch_date": "19961122",
+    "touch_count": 2269,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961122",
+    "basis": "hfq",
+    "first_touch_date": "19961128",
+    "touch_count": 2268,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19961125",
+    "basis": "hfq",
+    "first_touch_date": "19961128",
+    "touch_count": 2268,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19970609",
+    "basis": "hfq",
+    "first_touch_date": "19970611",
+    "touch_count": 2203,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19970623",
+    "basis": "hfq",
+    "first_touch_date": "19970626",
+    "touch_count": 2194,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19990625",
+    "basis": "hfq",
+    "first_touch_date": "19990630",
+    "touch_count": 1943,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19990628",
+    "basis": "hfq",
+    "first_touch_date": "19990630",
+    "touch_count": 1943,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "19990629",
+    "basis": "hfq",
+    "first_touch_date": "19990630",
+    "touch_count": 1943,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20000803",
+    "basis": "hfq",
+    "first_touch_date": "20000808",
+    "touch_count": 1808,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20010109",
+    "basis": "hfq",
+    "first_touch_date": "20010112",
+    "touch_count": 1730,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20010110",
+    "basis": "hfq",
+    "first_touch_date": "20010112",
+    "touch_count": 1730,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20010111",
+    "basis": "hfq",
+    "first_touch_date": "20010112",
+    "touch_count": 1730,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20010810",
+    "basis": "hfq",
+    "first_touch_date": "20010814",
+    "touch_count": 1637,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060105",
+    "basis": "hfq",
+    "first_touch_date": "20060209",
+    "touch_count": 1056,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060209",
+    "basis": "hfq",
+    "first_touch_date": "20060215",
+    "touch_count": 1055,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060220",
+    "basis": "hfq",
+    "first_touch_date": "20060228",
+    "touch_count": 1051,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060227",
+    "basis": "hfq",
+    "first_touch_date": "20060228",
+    "touch_count": 1051,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060320",
+    "basis": "hfq",
+    "first_touch_date": "20060327",
+    "touch_count": 1045,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060321",
+    "basis": "hfq",
+    "first_touch_date": "20060327",
+    "touch_count": 1045,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060327",
+    "basis": "hfq",
+    "first_touch_date": "20060331",
+    "touch_count": 1044,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060328",
+    "basis": "hfq",
+    "first_touch_date": "20060331",
+    "touch_count": 1044,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060329",
+    "basis": "hfq",
+    "first_touch_date": "20060331",
+    "touch_count": 1044,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060403",
+    "basis": "hfq",
+    "first_touch_date": "20060406",
+    "touch_count": 1043,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060406",
+    "basis": "hfq",
+    "first_touch_date": "20060410",
+    "touch_count": 1042,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060828",
+    "basis": "hfq",
+    "first_touch_date": "20060901",
+    "touch_count": 1000,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060829",
+    "basis": "hfq",
+    "first_touch_date": "20060901",
+    "touch_count": 1000,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060922",
+    "basis": "hfq",
+    "first_touch_date": "20060926",
+    "touch_count": 988,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060925",
+    "basis": "hfq",
+    "first_touch_date": "20060926",
+    "touch_count": 988,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20060929",
+    "basis": "hfq",
+    "first_touch_date": "20061010",
+    "touch_count": 985,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061019",
+    "basis": "hfq",
+    "first_touch_date": "20061030",
+    "touch_count": 982,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061023",
+    "basis": "hfq",
+    "first_touch_date": "20061030",
+    "touch_count": 982,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061026",
+    "basis": "hfq",
+    "first_touch_date": "20061030",
+    "touch_count": 982,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061027",
+    "basis": "hfq",
+    "first_touch_date": "20061030",
+    "touch_count": 982,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061103",
+    "basis": "hfq",
+    "first_touch_date": "20061106",
+    "touch_count": 978,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061110",
+    "basis": "hfq",
+    "first_touch_date": "20061113",
+    "touch_count": 973,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061116",
+    "basis": "hfq",
+    "first_touch_date": "20061117",
+    "touch_count": 969,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061120",
+    "basis": "hfq",
+    "first_touch_date": "20061124",
+    "touch_count": 968,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061121",
+    "basis": "hfq",
+    "first_touch_date": "20061124",
+    "touch_count": 968,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061130",
+    "basis": "hfq",
+    "first_touch_date": "20061208",
+    "touch_count": 963,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061201",
+    "basis": "hfq",
+    "first_touch_date": "20061208",
+    "touch_count": 963,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061204",
+    "basis": "hfq",
+    "first_touch_date": "20061208",
+    "touch_count": 963,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061205",
+    "basis": "hfq",
+    "first_touch_date": "20061208",
+    "touch_count": 963,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061218",
+    "basis": "hfq",
+    "first_touch_date": "20061225",
+    "touch_count": 958,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061220",
+    "basis": "hfq",
+    "first_touch_date": "20061225",
+    "touch_count": 958,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061221",
+    "basis": "hfq",
+    "first_touch_date": "20061225",
+    "touch_count": 958,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061225",
+    "basis": "hfq",
+    "first_touch_date": "20061227",
+    "touch_count": 957,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061227",
+    "basis": "hfq",
+    "first_touch_date": "20070108",
+    "touch_count": 956,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061228",
+    "basis": "hfq",
+    "first_touch_date": "20070108",
+    "touch_count": 956,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20061229",
+    "basis": "hfq",
+    "first_touch_date": "20070108",
+    "touch_count": 956,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070104",
+    "basis": "hfq",
+    "first_touch_date": "20070108",
+    "touch_count": 956,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070409",
+    "basis": "hfq",
+    "first_touch_date": "20070411",
+    "touch_count": 930,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070417",
+    "basis": "hfq",
+    "first_touch_date": "20070418",
+    "touch_count": 925,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070418",
+    "basis": "hfq",
+    "first_touch_date": "20070430",
+    "touch_count": 924,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070420",
+    "basis": "hfq",
+    "first_touch_date": "20070430",
+    "touch_count": 924,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070423",
+    "basis": "hfq",
+    "first_touch_date": "20070430",
+    "touch_count": 924,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070424",
+    "basis": "hfq",
+    "first_touch_date": "20070430",
+    "touch_count": 924,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070508",
+    "basis": "hfq",
+    "first_touch_date": "20070509",
+    "touch_count": 923,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070514",
+    "basis": "hfq",
+    "first_touch_date": "20070515",
+    "touch_count": 920,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070518",
+    "basis": "hfq",
+    "first_touch_date": "20070521",
+    "touch_count": 916,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070521",
+    "basis": "hfq",
+    "first_touch_date": "20070522",
+    "touch_count": 915,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070525",
+    "basis": "hfq",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070528",
+    "basis": "hfq",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070529",
+    "basis": "hfq",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070530",
+    "basis": "hfq",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070531",
+    "basis": "hfq",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070601",
+    "basis": "hfq",
+    "first_touch_date": "20070604",
+    "touch_count": 912,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070720",
+    "basis": "hfq",
+    "first_touch_date": "20070726",
+    "touch_count": 891,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070723",
+    "basis": "hfq",
+    "first_touch_date": "20070726",
+    "touch_count": 891,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070730",
+    "basis": "hfq",
+    "first_touch_date": "20070801",
+    "touch_count": 890,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070802",
+    "basis": "hfq",
+    "first_touch_date": "20070808",
+    "touch_count": 889,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070803",
+    "basis": "hfq",
+    "first_touch_date": "20070808",
+    "touch_count": 889,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070822",
+    "basis": "hfq",
+    "first_touch_date": "20070830",
+    "touch_count": 884,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070823",
+    "basis": "hfq",
+    "first_touch_date": "20070830",
+    "touch_count": 884,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070824",
+    "basis": "hfq",
+    "first_touch_date": "20070830",
+    "touch_count": 884,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070827",
+    "basis": "hfq",
+    "first_touch_date": "20070830",
+    "touch_count": 884,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070904",
+    "basis": "hfq",
+    "first_touch_date": "20070905",
+    "touch_count": 882,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070917",
+    "basis": "hfq",
+    "first_touch_date": "20070918",
+    "touch_count": 876,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070920",
+    "basis": "hfq",
+    "first_touch_date": "20070921",
+    "touch_count": 875,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20070926",
+    "basis": "hfq",
+    "first_touch_date": "20070927",
+    "touch_count": 871,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071008",
+    "basis": "hfq",
+    "first_touch_date": "20071011",
+    "touch_count": 868,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071009",
+    "basis": "hfq",
+    "first_touch_date": "20071011",
+    "touch_count": 868,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071010",
+    "basis": "hfq",
+    "first_touch_date": "20071011",
+    "touch_count": 868,
+    "first_touch_valid": true,
+    "status": "first_touch_valid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071026",
+    "basis": "hfq",
+    "first_touch_date": "20071105",
+    "touch_count": 859,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071029",
+    "basis": "hfq",
+    "first_touch_date": "20071105",
+    "touch_count": 859,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071031",
+    "basis": "hfq",
+    "first_touch_date": "20071105",
+    "touch_count": 859,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  },
+  {
+    "ts_code": "000024.SZ",
+    "name": "招商地产(退)",
+    "breakout_date": "20071101",
+    "basis": "hfq",
+    "first_touch_date": "20071105",
+    "touch_count": 859,
+    "first_touch_valid": false,
+    "status": "first_touch_invalid"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "completed": {
+    "000003.SZ": "20261008",
+    "000013.SZ": "20261008",
+    "000015.SZ": "20261008",
+    "000024.SZ": "20261008"
+  },
+  "errors": {
+    "000001.SZ": "Adjustment factors missing on some trading dates",
+    "000002.SZ": "Adjustment factors missing on some trading dates",
+    "000004.SZ": "Adjustment factors missing on some trading dates",
+    "000005.SZ": "Adjustment factors missing on some trading dates",
+    "000006.SZ": "Adjustment factors missing on some trading dates",
+    "000007.SZ": "Adjustment factors missing on some trading dates",
+    "000008.SZ": "Adjustment factors missing on some trading dates",
+    "000009.SZ": "Adjustment factors missing on some trading dates",
+    "000010.SZ": "Adjustment factors missing on some trading dates",
+    "000011.SZ": "Adjustment factors missing on some trading dates",
+    "000012.SZ": "Adjustment factors missing on some trading dates",
+    "000014.SZ": "Adjustment factors missing on some trading dates",
+    "000016.SZ": "Adjustment factors missing on some trading dates",
+    "000017.SZ": "Adjustment factors missing on some trading dates",
+    "000018.SZ": "Adjustment factors missing on some trading dates",
+    "000019.SZ": "Adjustment factors missing on some trading dates",
+    "000020.SZ": "Adjustment factors missing on some trading dates",
+    "000021.SZ": "Adjustment factors missing on some trading dates",
+    "000023.SZ": "Adjustment factors missing on some trading dates",
+    "000025.SZ": "Adjustment factors missing on some trading dates",
+    "000026.SZ": "Adjustment factors missing on some trading dates"
+  }
+}
