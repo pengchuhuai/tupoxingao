@@ -1,0 +1,40 @@
+name: Verify TDX and Eastmoney connectivity
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/verify-market-sources.yml'
+      - 'tests/compare_tdx_eastmoney.py'
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install diagnostics
+        run: pip install akshare pytdx pandas
+      - name: Probe single-symbol historical data (NOT market-wide ATH screening)
+        run: |
+          mkdir -p diagnostics
+          python tests/compare_tdx_eastmoney.py --symbol 600000 --date 2026-10-30 > diagnostics/tdx_eastmoney_2026-10-30.json
+          cat diagnostics/tdx_eastmoney_2026-10-30.json
+          python - <<'PY'
+          import json
+          p=json.load(open('diagnostics/tdx_eastmoney_2026-10-30.json'))
+          for source in ('tdx','eastmoney'):
+              s=p['sources'].get(source,{})
+              if 'error' in s or not s.get('date_found'):
+                  raise SystemExit(f'{source} data probe failed: {s}')
+          print('Both single-stock probes returned the requested date; market-wide ATH screening NOT verified.')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tdx-eastmoney-diagnostic
+          path: diagnostics/
+          if-no-files-found: warn
