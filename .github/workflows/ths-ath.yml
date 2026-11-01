@@ -1,15 +1,16 @@
-name: Direct THS historical-high ranking
+name: Wencai historical-high candidates
 on:
   workflow_dispatch:
   push:
     paths:
       - '.github/workflows/ths-ath.yml'
+      - 'fetch_wencai_ath.py'
   schedule:
     - cron: '15 9 * * 1-5'
 permissions:
   contents: write
 concurrency:
-  group: ths-ath-fetch
+  group: wencai-ath-fetch
   cancel-in-progress: false
 jobs:
   fetch:
@@ -20,13 +21,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install source client
-        run: pip install 'akshare>=1.16' pandas
-      - name: Fetch THS all-time-high ranking
-        run: python -u fetch_ath_source.py
-      - name: Commit source snapshot
+      - name: Install Wencai client
+        run: pip install 'pywencai>=0.12' 'pandas>=2.1,<3'
+      - name: Fetch Wencai candidates
+        run: python -u fetch_wencai_ath.py
+      - name: Commit Wencai snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ath_source_latest.json
-          git diff --cached --quiet || (git commit -m "Update THS historical-high source snapshot" && git push)
+          git add data/ath_wencai_latest.json
+          git diff --cached --quiet || (git commit -m "Update Wencai ATH candidates" && git push)
