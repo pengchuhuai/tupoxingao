@@ -1,6 +1,8 @@
 """Fetch WenCai intraday HIGH all-time-high candidates; no full-market scan."""
 import json
 import os
+import traceback
+import importlib.metadata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -10,10 +12,11 @@ import pywencai
 DAY = os.environ.get("ATH_TRADE_DATE", "20261030")
 day = f"{DAY[:4]}年{int(DAY[4:6])}月{int(DAY[6:])}日"
 questions = [
+    "2026年10月30日涨停股票",
     f"{day}A股当日最高价创上市以来历史新高，股票代码，股票简称，当日最高价",
     f"{day}A股盘中最高价突破上市以来历史最高价，股票代码，股票简称，当日最高价",
 ]
-out = {"trade_date": DAY, "fetched_at": datetime.now(timezone.utc).isoformat(),
+out = {"diagnostics": {"pywencai_version": importlib.metadata.version("pywencai")}, "trade_date": DAY, "fetched_at": datetime.now(timezone.utc).isoformat(),
        "source": "pywencai (unofficial WenCai client)", "queries": [], "records": [],
        "verified": False, "note": "Candidates only; not independently verified against historical intraday highs."}
 all_rows = {}
@@ -39,6 +42,7 @@ for question in questions:
             all_rows[code]["matched_queries"].append(question)
     except Exception as exc:
         result["error"] = f"{type(exc).__name__}: {exc}"
+        result["traceback"] = traceback.format_exc(limit=12)
     out["queries"].append(result)
 out["records"] = list(all_rows.values())
 out["count"] = len(out["records"])
