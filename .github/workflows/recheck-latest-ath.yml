@@ -1,0 +1,34 @@
+name: Recheck latest THS ATH ranking
+on:
+  push:
+    paths:
+      - '.github/workflows/recheck-latest-ath.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install 'akshare>=1.16' 'pandas>=2,<3'
+      - name: Query latest available THS ATH ranking
+        run: |
+          python -u fetch_ath_source.py
+          python - <<'PY'
+          import json
+          p=json.load(open('data/ath_source_latest.json'))
+          print('Source:',p['source'],'Count:',p['count'],'Fetched:',p['fetched_at'])
+          for x in p['records']:
+              print(x.get('股票代码'),x.get('股票简称'),x.get('前期高点'),x.get('前期高点日期'))
+          PY
+      - name: Persist returned ranking
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ath_source_latest.json
+          git diff --cached --quiet || (git commit -m "data: recheck latest THS ATH ranking" && git push)
