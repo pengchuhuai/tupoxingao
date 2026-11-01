@@ -1,10 +1,6 @@
-name: WenCai intraday all-time highs
+name: WenCai intraday all-time highs (retired)
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'wencai_ath.py'
-      - '.github/workflows/wencai-ath.yml'
 permissions:
   contents: write
 jobs:
