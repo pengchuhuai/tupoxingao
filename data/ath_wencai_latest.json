@@ -1,0 +1,19 @@
+{
+  "trade_date": "20261030",
+  "fetched_at": "2026-11-01T08:24:05.925647+00:00",
+  "source": "pywencai (unofficial WenCai client)",
+  "queries": [
+    {
+      "question": "2026年10月30日A股当日最高价创上市以来历史新高，股票代码，股票简称，当日最高价",
+      "error": "AttributeError: 'NoneType' object has no attribute 'get'"
+    },
+    {
+      "question": "2026年10月30日A股盘中最高价突破上市以来历史最高价，股票代码，股票简称，当日最高价",
+      "error": "AttributeError: 'NoneType' object has no attribute 'get'"
+    }
+  ],
+  "records": [],
+  "verified": false,
+  "note": "Candidates only; not independently verified against historical intraday highs.",
+  "count": 0
+}
