@@ -74,7 +74,7 @@ def normalize(row):
     code = pick("thscode", "股票代码", "证券代码", "stockcode")
     if not code:
         return None
-    m = re.search(r"(?<!\\d)\\d{6}(?!\\d)", code)
+    m = re.search(r"(?<!\d)\d{6}(?!\d)", code)
     if not m:
         return None
     return {"code": m.group(), "name": pick("股票简称", "股票名称", "证券简称", "secname", "stockname"),
