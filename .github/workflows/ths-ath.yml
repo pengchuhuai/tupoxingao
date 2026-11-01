@@ -1,6 +1,9 @@
 name: Direct THS historical-high ranking
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/ths-ath.yml'
   schedule:
     - cron: '15 9 * * 1-5'
 permissions:
