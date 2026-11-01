@@ -1,8 +1,6 @@
-name: Raw all-time-high stock scanner
+name: Raw all-time-high stock scanner (manual fallback)
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '35 8 * * 1-5'
 permissions:
   contents: write
 concurrency:
