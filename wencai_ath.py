@@ -9,6 +9,7 @@ from pathlib import Path
 import pandas as pd
 import pywencai
 
+COOKIE = os.environ.get("WENCAI_COOKIE", "").strip()
 DAY = os.environ.get("ATH_TRADE_DATE", "20261030")
 day = f"{DAY[:4]}年{int(DAY[4:6])}月{int(DAY[6:])}日"
 questions = [
@@ -16,14 +17,16 @@ questions = [
     f"{day}A股当日最高价创上市以来历史新高，股票代码，股票简称，当日最高价",
     f"{day}A股盘中最高价突破上市以来历史最高价，股票代码，股票简称，当日最高价",
 ]
-out = {"diagnostics": {"pywencai_version": importlib.metadata.version("pywencai")}, "trade_date": DAY, "fetched_at": datetime.now(timezone.utc).isoformat(),
+out = {"diagnostics": {"pywencai_version": importlib.metadata.version("pywencai"), "cookie_configured": bool(COOKIE)}, "trade_date": DAY, "fetched_at": datetime.now(timezone.utc).isoformat(),
        "source": "pywencai (unofficial WenCai client)", "queries": [], "records": [],
        "verified": False, "note": "Candidates only; not independently verified against historical intraday highs."}
 all_rows = {}
 for question in questions:
     result = {"question": question}
     try:
-        df = pywencai.get(query=question, query_type="stock", loop=True)
+        if not COOKIE:
+            raise RuntimeError("MISSING_WENCAI_COOKIE: pywencai 0.13.1 requires a logged-in WenCai Cookie; configure GitHub Actions secret WENCAI_COOKIE")
+        df = pywencai.get(query=question, query_type="stock", loop=True, cookie=COOKIE, retry=2)
         if not isinstance(df, pd.DataFrame):
             raise RuntimeError(f"Unexpected response type: {type(df).__name__}")
         result["count"] = len(df)
@@ -43,6 +46,8 @@ for question in questions:
     except Exception as exc:
         result["error"] = f"{type(exc).__name__}: {exc}"
         result["traceback"] = traceback.format_exc(limit=12)
+        if COOKIE and "NoneType" in str(exc):
+            result["hint"] = "WenCai returned unexpected/empty response despite cookie; check expiration, site API changes, or runner IP restriction"
     out["queries"].append(result)
 out["records"] = list(all_rows.values())
 out["count"] = len(out["records"])
