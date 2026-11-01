@@ -1,25 +1,29 @@
 {
   "diagnostics": {
-    "pywencai_version": "0.13.1"
+    "pywencai_version": "0.13.1",
+    "cookie_configured": true
   },
   "trade_date": "20261030",
-  "fetched_at": "2026-11-01T08:28:49.616325+00:00",
+  "fetched_at": "2026-11-01T08:53:50.062699+00:00",
   "source": "pywencai (unofficial WenCai client)",
   "queries": [
     {
       "question": "2026年10月30日涨停股票",
       "error": "AttributeError: 'NoneType' object has no attribute 'get'",
-      "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/tupoxingao/tupoxingao/wencai_ath.py\", line 26, in <module>\n    df = pywencai.get(query=question, query_type=\"stock\", loop=True)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pywencai/wencai.py\", line 185, in get\n    data = params.get('data')\n           ^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get'\n"
+      "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/tupoxingao/tupoxingao/wencai_ath.py\", line 29, in <module>\n    df = pywencai.get(query=question, query_type=\"stock\", loop=True, cookie=COOKIE, retry=2)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pywencai/wencai.py\", line 185, in get\n    data = params.get('data')\n           ^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get'\n",
+      "hint": "WenCai returned unexpected/empty response despite cookie; check expiration, site API changes, or runner IP restriction"
     },
     {
       "question": "2026年10月30日A股当日最高价创上市以来历史新高，股票代码，股票简称，当日最高价",
       "error": "AttributeError: 'NoneType' object has no attribute 'get'",
-      "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/tupoxingao/tupoxingao/wencai_ath.py\", line 26, in <module>\n    df = pywencai.get(query=question, query_type=\"stock\", loop=True)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pywencai/wencai.py\", line 185, in get\n    data = params.get('data')\n           ^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get'\n"
+      "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/tupoxingao/tupoxingao/wencai_ath.py\", line 29, in <module>\n    df = pywencai.get(query=question, query_type=\"stock\", loop=True, cookie=COOKIE, retry=2)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pywencai/wencai.py\", line 185, in get\n    data = params.get('data')\n           ^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get'\n",
+      "hint": "WenCai returned unexpected/empty response despite cookie; check expiration, site API changes, or runner IP restriction"
     },
     {
       "question": "2026年10月30日A股盘中最高价突破上市以来历史最高价，股票代码，股票简称，当日最高价",
       "error": "AttributeError: 'NoneType' object has no attribute 'get'",
-      "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/tupoxingao/tupoxingao/wencai_ath.py\", line 26, in <module>\n    df = pywencai.get(query=question, query_type=\"stock\", loop=True)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pywencai/wencai.py\", line 185, in get\n    data = params.get('data')\n           ^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get'\n"
+      "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/tupoxingao/tupoxingao/wencai_ath.py\", line 29, in <module>\n    df = pywencai.get(query=question, query_type=\"stock\", loop=True, cookie=COOKIE, retry=2)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/pywencai/wencai.py\", line 185, in get\n    data = params.get('data')\n           ^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get'\n",
+      "hint": "WenCai returned unexpected/empty response despite cookie; check expiration, site API changes, or runner IP restriction"
     }
   ],
   "records": [],
