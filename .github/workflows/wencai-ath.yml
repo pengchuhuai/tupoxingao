@@ -21,6 +21,7 @@ jobs:
       - name: Query 2026-10-30 intraday ATH candidates
         env:
           ATH_TRADE_DATE: '20261030'
+          WENCAI_COOKIE: \${{ secrets.WENCAI_COOKIE }}
         run: python -u wencai_ath.py
       - name: Commit raw results and diagnostics
         if: always()
