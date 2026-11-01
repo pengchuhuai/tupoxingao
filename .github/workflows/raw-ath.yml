@@ -1,0 +1,32 @@
+name: Raw all-time-high stock scanner
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 8 * * 1-5'
+permissions:
+  contents: write
+concurrency:
+  group: raw-ath-scanner
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Scan raw intraday all-time highs
+        env:
+          TUSHARE_TOKEN: ${{ secrets.tushare_key }}
+          ATH_BATCH_SIZE: '50'
+        run: python -u raw_ath_scan.py
+      - name: Persist scan progress
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw_ath_progress.json data/raw_ath_breakouts.json data/raw_ath_today.json
+          git diff --cached --quiet || (git commit -m "Update raw ATH scan data" && git push)
